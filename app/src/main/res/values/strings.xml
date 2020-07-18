@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalorieCounter</string>
+    <string name="song_name">The Scientist - Coldplay (Boyce Avenue feat. Hannah Trigwell acoustic cover) on iTunes &amp; Spotify</string>
+    <string name="views_count">22 547 views</string>
+    <string name="upvote">1 K</string>
+    <string name="downvote">7</string>
+    <string name="delete_item">DELETE</string>
+</resources>

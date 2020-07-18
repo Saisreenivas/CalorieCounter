@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle_shape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Food Name"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:id="@+id/rowTitle"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date text"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:id="@+id/rowDate"
+        android:textColor="#505050"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/rowTitle"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/rowDate"
+        android:id="@+id/rowImage"
+        android:src="@drawable/red_apple_400x400"
+        android:layout_height="90dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:layout_below="@id/rowImage"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ce0202"
+        android:id="@+id/rowCalories"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cal."
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_toRightOf="@id/rowCalories"
+        android:layout_alignBottom="@id/rowCalories"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="30sp"/>
+</RelativeLayout>
